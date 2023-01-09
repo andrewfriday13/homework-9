@@ -51,7 +51,7 @@ function timer() {
     minute.textContent = minutes
     second.textContent = seconds
 
-    if (selectDate <= 1000) {
+    if (dataTime <= 1000) {
       clearInterval(timerId)
     startTimer.disabled = false
 
